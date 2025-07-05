@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TB
+flowchart LR
   subgraph "1. Firebase Analytics 統合の概要"
     A["アプリ起動"] --> B["SDK 初期化(firebase.js)"]
     B --> C["自動収集イベント開始"]
