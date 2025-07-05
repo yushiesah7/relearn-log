@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TB
+flowchart LR
   subgraph "4. 自動収集イベントとカスタムイベントの送信"
     A["SDK 初期化完了(getAnalytics)"]
     A --> B["自動収集イベント発火"]
