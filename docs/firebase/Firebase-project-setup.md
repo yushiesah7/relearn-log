@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TB
+flowchart LR
   subgraph "2. Firebase プロジェクト作成とコンソール設定"
     A["Google アカウントで Firebase コンソールにサインイン"]
     A --> B["[Add project] または [Create project] をクリック"]
