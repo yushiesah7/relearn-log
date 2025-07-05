@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TB
+flowchart LR
   subgraph "3. React アプリへの Firebase SDK モジュール初期化"
     A["アプリ起動時に index.js で import 'firebase.js'"]
     A --> B["firebase.js で initializeApp() を実行"]
